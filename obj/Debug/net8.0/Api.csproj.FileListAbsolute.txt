@@ -139,3 +139,11 @@
 /home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/home/bipan/Downloads/FullstackFinance/Api/obj/Debug/net8.0/Api.sourcelink.json
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/home/bipan/Downloads/FullstackFinance/Api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
