@@ -1,0 +1,6 @@
+@Api_HostAddress = http://localhost:5020
+
+GET {{Api_HostAddress}}/api/stock
+
+###
+POST {{Api_HostAddress}}/api/stock
