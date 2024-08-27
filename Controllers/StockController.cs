@@ -4,6 +4,7 @@ using Api.Mappers;
 using Api.Dtos.Stock;
 using Api.Interfaces;
 using Api.Helpers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Api.Controllers
 {
@@ -18,14 +19,15 @@ namespace Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var stocks = await _stockRepo.GetAllAsync(query);
-            var stockDto = stocks.Select(s => s.ToStockDto());
-            return Ok(stocks);
+            var stockDto = stocks.Select(s => s.ToStockDto()).ToList();
+            return Ok(stockDto);
         }
 
         [HttpGet("{id:int}")]
