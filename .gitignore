@@ -1,0 +1,24 @@
+# .NET specific
+*.vshost.exe
+*.user
+*.suo
+*.pdb
+*.tmp
+*.log
+*.cache
+bin/
+obj/
+
+# IDE specific
+*.csproj.user
+*.sln.dotSettings
+
+# Package managers
+packages/
+*.nupkg
+*.json
+*.*.json
+
+# Temporary files
+*.tmp
+*.swp
