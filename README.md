@@ -1,5 +1,5 @@
 ## Stock Financial Data Viewer and Portfolio Manager
-
+The backend project with the database is hosted on https://financemanager.runasp.net and the api documentation can be seen on [https://financemanager.runasp.net/swagger/index.html](https://financemanager.runasp.net/swagger/index.html)
 This is the backend API for the Stock Financial Data Viewer application, developed using .NET Web API. 
 It provides endpoints for user authentication, managing personal portfolios, and fetching financial data 
 from an AWS RDS-hosted Microsoft SQL Server database. This API serves as the backend for the frontend React.js application. [React Project](https://github.com/bipan1/Finance-Project)
