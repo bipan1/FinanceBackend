@@ -20,3 +20,6 @@ from an AWS RDS-hosted Microsoft SQL Server database. This API serves as the bac
 - JWT (JSON Web Tokens): For secure user authentication and authorization.
 - AWS RDS: Amazon Web Services Relational Database Service, hosting the SQL Server database.
 - ASP.NET Core Middleware: For handling requests, logging, and error handling.
+
+## Deployment
+The Microsoft SQL server database and the .NET web app project are hosted on [https://www.monsterasp.net/](https://www.monsterasp.net/). They provide a straightforward and efficient way to deploy your .NET app with a database for free. 
